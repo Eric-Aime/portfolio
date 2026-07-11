@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import ChatWidget from "./ChatWidget";
 
 /* ────────────────────────────────────────────────────────────
    Reveal : anime un bloc au scroll (remplace la classe .reveal)
@@ -749,6 +750,8 @@ export default function Home() {
       <footer>
         <p>© 2026 <span>Fidison Jean Eric Aimé</span> — Portfolio personnel. Conçu avec ❤️ à Fianarantsoa, Madagascar</p>
       </footer>
+
+      <ChatWidget />
     </>
   );
 }
